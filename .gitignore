@@ -10,6 +10,6 @@ __pycache__/
 
 # SYSTEM FILES
 .DS_Store
-
+.csv
 # OPTIONAL (ML FILES if large)
-# *.pkl
+# .pkl
