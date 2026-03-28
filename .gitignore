@@ -1,0 +1,15 @@
+# ENV
+.env
+
+# DATABASE
+users.db
+
+# PYTHON CACHE
+__pycache__/
+*.pyc
+
+# SYSTEM FILES
+.DS_Store
+
+# OPTIONAL (ML FILES if large)
+# *.pkl

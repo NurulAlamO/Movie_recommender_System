@@ -1,0 +1,204 @@
+emotion,movie
+happy,3 Idiots
+happy,The Mask
+happy,Mr. Bean
+happy,Home Alone
+happy,The Hangover
+happy,Yes Man
+happy,Dumb and Dumber
+happy,The Intern
+happy,Jumanji
+happy,Paddington
+happy,School of Rock
+happy,Legally Blonde
+happy,Mean Girls
+happy,The Proposal
+happy,Mamma Mia
+happy,Shrek
+happy,Toy Story
+happy,Finding Nemo
+happy,Aladdin
+happy,Encanto
+happy,Zootopia
+happy,Coco
+happy,Despicable Me
+happy,Minions
+happy,Ratatouille
+happy,Kung Fu Panda
+happy,Ice Age
+happy,The Croods
+happy,Charlie and the Chocolate Factory
+happy,Elf
+happy,Night at the Museum
+happy,Yes Day
+happy,Clueless
+happy,Easy A
+happy,The Princess Diaries
+happy,Bridesmaids
+happy,Pitch Perfect
+happy,Sister Act
+happy,The Lego Movie
+happy,Sing
+
+sad,The Pursuit of Happyness
+sad,Forrest Gump
+sad,Titanic
+sad,The Fault in Our Stars
+sad,The Green Mile
+sad,Hachi
+sad,Schindler's List
+sad,The Pianist
+sad,Life is Beautiful
+sad,A Beautiful Mind
+sad,Grave of the Fireflies
+sad,Manchester by the Sea
+sad,Room
+sad,Requiem for a Dream
+sad,Brokeback Mountain
+sad,The Boy in the Striped Pajamas
+sad,Million Dollar Baby
+sad,Her
+sad,The Road
+sad,Up
+sad,My Sister's Keeper
+sad,The Lovely Bones
+sad,Seven Pounds
+sad,Still Alice
+sad,Blue Valentine
+sad,The Kite Runner
+sad,Into the Wild
+sad,Dead Poets Society
+sad,The Notebook
+sad,Bridge to Terabithia
+sad,Precious
+sad,The Elephant Man
+sad,The Whale
+sad,Me Before You
+sad,Marriage Story
+sad,The Last Song
+sad,One Day
+sad,Remember Me
+sad,The Fault in Our Stars
+sad,Call Me By Your Name
+
+angry,John Wick
+angry,Gladiator
+angry,Mad Max
+angry,The Dark Knight
+angry,Avengers Endgame
+angry,300
+angry,Fight Club
+angry,The Revenant
+angry,Kill Bill
+angry,Inception
+angry,The Matrix
+angry,Scarface
+angry,Joker
+angry,Logan
+angry,Black Panther
+angry,The Equalizer
+angry,Die Hard
+angry,Deadpool
+angry,Thor Ragnarok
+angry,Captain America Civil War
+angry,Man on Fire
+angry,Training Day
+angry,Prisoners
+angry,The Departed
+angry,Taxi Driver
+angry,American History X
+angry,Oldboy
+angry,Heat
+angry,The Punisher
+angry,John Wick 2
+angry,John Wick 3
+angry,Gladiator 2
+angry,The Northman
+angry,Sicario
+angry,Nobody
+angry,Wrath of Man
+angry,Extraction
+angry,Rambo
+angry,Rocky
+angry,Creed
+
+romantic,The Notebook
+romantic,Titanic
+romantic,La La Land
+romantic,Before Sunrise
+romantic,Me Before You
+romantic,Pride and Prejudice
+romantic,Notting Hill
+romantic,The Fault in Our Stars
+romantic,500 Days of Summer
+romantic,Love Actually
+romantic,The Vow
+romantic,Dear John
+romantic,A Walk to Remember
+romantic,Call Me By Your Name
+romantic,Silver Linings Playbook
+romantic,The Holiday
+romantic,Pretty Woman
+romantic,To All the Boys I've Loved Before
+romantic,Midnight in Paris
+romantic,Letters to Juliet
+romantic,About Time
+romantic,The Time Traveler's Wife
+romantic,Before Sunset
+romantic,Before Midnight
+romantic,The Lucky One
+romantic,Safe Haven
+romantic,PS I Love You
+romantic,The Longest Ride
+romantic,Endless Love
+romantic,After
+romantic,After We Collided
+romantic,After We Fell
+romantic,After Ever Happy
+romantic,Love Simon
+romantic,Someone Great
+romantic,The Spectacular Now
+romantic,Always Be My Maybe
+romantic,Set It Up
+romantic,Friends with Benefits
+
+fear,The Conjuring
+fear,Insidious
+fear,The Nun
+fear,Annabelle
+fear,Hereditary
+fear,The Exorcist
+fear,It
+fear,A Quiet Place
+fear,The Ring
+fear,The Grudge
+fear,Sinister
+fear,Paranormal Activity
+fear,The Babadook
+fear,Get Out
+fear,Us
+fear,The Shining
+fear,Doctor Sleep
+fear,The Others
+fear,Lights Out
+fear,Smile
+fear,The Witch
+fear,The Blair Witch Project
+fear,Midsommar
+fear,The Visit
+fear,The Autopsy of Jane Doe
+fear,The Taking of Deborah Logan
+fear,Oculus
+fear,Host
+fear,The Invisible Man
+fear,Don't Breathe
+fear,The Descent
+fear,REC
+fear,The Hills Have Eyes
+fear,The Texas Chainsaw Massacre
+fear,Wrong Turn
+fear,Final Destination
+fear,Saw
+fear,The Purge
+fear,Happy Death Day
+fear,Escape Room
