@@ -13,4 +13,4 @@ __pycache__/
 # OPTIONAL (ML FILES if large)
 .pkl
 
-.csv
+dataset.csv
