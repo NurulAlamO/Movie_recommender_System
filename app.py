@@ -14,7 +14,7 @@ def init_db():
 
     c.execute("""
     CREATE TABLE IF NOT EXISTS users(
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        id SERIAL PRIMARY KEY,
         username TEXT,
         password TEXT
     )
@@ -22,7 +22,7 @@ def init_db():
 
     c.execute("""
     CREATE TABLE IF NOT EXISTS favorites(
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        id SERIAL PRIMARY KEY,
         username TEXT,
         movie TEXT
     )
