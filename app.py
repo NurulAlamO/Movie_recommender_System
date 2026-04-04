@@ -39,7 +39,6 @@ def register():
     if request.method == "POST":
         u = request.form["username"]
         p = bcrypt.hashpw(request.form["password"].encode(), bcrypt.gensalt())
-
         conn = get_db()
         c = conn.cursor()
         c.execute(query_format("INSERT INTO users(username,password) VALUES (?,?)"), (u,p))
@@ -63,7 +62,7 @@ def login():
         user = c.fetchone()
         conn.close()
 
-        if user and bcrypt.checkpw(p, user[0].encode()): 
+        if user and bcrypt.checkpw(p, user[0]): 
             session["user"] = u
             return redirect("/")
 
