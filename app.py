@@ -63,10 +63,14 @@ def login():
         if user:
             stored_password = user[0]
             try:
-                if isinstance(stored_password, str):
-                    stored_password = stored_password.encode()
+                # if isinstance(stored_password, str):
+                #     stored_password = stored_password.encode()
+                # if bcrypt.checkpw(raw_password.encode(), stored_password):
+                #     session["user"] = u
+                #     return redirect("/")
                 if bcrypt.checkpw(raw_password.encode(), stored_password):
                     session["user"] = u
+                    print("Login success, session keys:", session.keys())
                     return redirect("/")
             except:
                 return "Password format error (old data). Please register again."
