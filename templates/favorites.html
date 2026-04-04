@@ -8,23 +8,20 @@
 <body class="bg-dark text-white">
 
     <div class="container mt-5">
-    <h2 class="text-center">Your Watchlist</h2>
-
-    <div class="text-center mt-3">
-        <a href="/" class="btn btn-warning">Home</a>
-        <a href="/ai-recommend" class="btn btn-info">AI Recommend</a>
+        <h2 class="text-center">Your Watchlist</h2>
+        <div class="text-center mt-3">
+            <a href="/" class="btn btn-warning">Home</a>
+            <a href="/ai-recommend" class="btn btn-info">AI Recommend</a>
+        </div>
+        <ul class="list-group mt-4">
+            {% for movie in movies %}
+            <li class="list-group-item d-flex justify-content-between">
+                {{ movie }}
+                <a href="/remove/{{ movie }}" 
+                    class="btn btn-danger btn-sm">Remove</a>
+            </li>
+            {% endfor %}
+        </ul>
     </div>
-
-    <ul class="list-group mt-4">
-        {% for movie in movies %}
-        <li class="list-group-item d-flex justify-content-between">
-            {{ movie }}
-            <a href="/remove/{{ movie }}" class="btn btn-danger btn-sm">Remove</a>
-        </li>
-        {% endfor %}
-    </ul>
-
-    </div>
-
 </body>
 </html>
