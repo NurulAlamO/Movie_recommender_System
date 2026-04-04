@@ -87,7 +87,7 @@
         const form = document.getElementById("movieForm");
         const loader = document.getElementById("loader");
         const container = document.getElementById("movieContainer");
-        const initialMovies = {{ movies | tojson | safe }};
+        const initialMovies = JSON.parse(`{{ movies | tojson | safe if movies else '[]' }}`);
 
         if (initialMovies && initialMovies.length > 0) {
             initialMovies.forEach(movie => {
