@@ -6,7 +6,7 @@ from ml_recommender import data
 import bcrypt
 
 app = Flask(__name__)
-app.secret_key = os.getenv("SECRET_KEY", "secret123")
+app.secret_key = os.getenv("SECRET_KEY")
 
 def init_db():
     conn = get_db()
