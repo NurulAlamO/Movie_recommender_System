@@ -8,6 +8,12 @@ import bcrypt
 app = Flask(__name__)
 app.secret_key = os.getenv("SECRET_KEY")
 
+app.config.update(
+    SESSION_COOKIE_HTTPONLY=True,
+    SESSION_COOKIE_SAMESITE='Lax',
+    SESSION_COOKIE_SECURE=True
+)
+
 def init_db():
     conn = get_db()
     c = conn.cursor()
