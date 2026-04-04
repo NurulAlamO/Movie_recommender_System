@@ -3,17 +3,20 @@ import random
 import requests
 import os
 from ml_recommender import hybrid_recommend
+from dotenv import load_dotenv
 
+load_dotenv()
 data = pickle.load(open("data.pkl", "rb"))
 API_KEY = os.getenv("TMDB_API_KEY")
 
 def get_movies(emotion=None, search=None):
-    if search:
-        movies = data[data['movie'].str.contains(search, case=False)]['movie'].tolist()
+    if search and search.strip() != "":
+        movies = data[data['movie'].str.contains(search, case=False, na=False)]['movie'].tolist()
     elif emotion:
         movies = data[data['emotion'] == emotion]['movie'].tolist()
     else:
         movies = data['movie'].tolist()
+
     random.shuffle(movies)
     return fetch_movies(movies[:5])
 

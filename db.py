@@ -6,7 +6,7 @@ def get_db():
     DATABASE_URL = os.getenv("DATABASE_URL")
     if DATABASE_URL:
         import psycopg2
-        return psycopg2.connect(DATABASE_URL)
+        return psycopg2.connect(os.environ["DATABASE_URL"])
     else:
         import sqlite3
         return sqlite3.connect("users.db", check_same_thread=False)
