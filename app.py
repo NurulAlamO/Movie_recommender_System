@@ -63,7 +63,7 @@ def login():
         user = c.fetchone()
         conn.close()
 
-        if user and bcrypt.checkpw(p, user[0]):
+        if user and bcrypt.checkpw(p, user[0].encode()): 
             session["user"] = u
             return redirect("/")
 
