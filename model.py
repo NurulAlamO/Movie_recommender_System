@@ -12,8 +12,8 @@ y = data['movie']
 
 model = DecisionTreeClassifier()
 model.fit(X, y)
-# save all
+
 pickle.dump(model, open("model.pkl", "wb"))
 pickle.dump(le, open("encoder.pkl", "wb"))
-pickle.dump(data, open("data.pkl", "wb"))   # 🔥 IMPORTANT
+pickle.dump(data, open("data.pkl", "wb"))   #  IMPORTANT
 print("Model Ready!")

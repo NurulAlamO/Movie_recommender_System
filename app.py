@@ -4,6 +4,9 @@ from db import get_db, query_format
 from recommender import get_movies, recommend_from_favorites
 from ml_recommender import data
 import bcrypt
+from dotenv import load_dotenv
+
+load_dotenv() 
 
 app = Flask(__name__)
 app.secret_key = os.getenv("SECRET_KEY")
